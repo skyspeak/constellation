@@ -30,7 +30,7 @@ function App() {
   const [chatInput, setChatInput] = useState('');
   const [chatHistory, setChatHistory] = useState<Array<{type: 'user' | 'assistant', message: string}>>([]);
 
-  const recommendedApps: App[] = [
+  const recommendedApps: Appinfo[] = [
     {
       name: 'Digital Asset Rights Manager',
       description: 'Automatically analyze music files and determine licensing rights, usage permissions, and royalty obligations.',
