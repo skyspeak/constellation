@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/constellation/static/css/main.e418fe92.css",
+    "main.js": "/constellation/static/js/main.e5fd3d5d.js",
+    "static/js/453.23b12198.chunk.js": "/constellation/static/js/453.23b12198.chunk.js",
+    "index.html": "/constellation/index.html",
+    "main.e418fe92.css.map": "/constellation/static/css/main.e418fe92.css.map",
+    "main.e5fd3d5d.js.map": "/constellation/static/js/main.e5fd3d5d.js.map",
+    "453.23b12198.chunk.js.map": "/constellation/static/js/453.23b12198.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e418fe92.css",
+    "static/js/main.e5fd3d5d.js"
+  ]
+}
