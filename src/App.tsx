@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './App.css';
 
-interface Appinfo {
+interface AppInfo {
   name: string;
   description: string;
   category: string;
@@ -24,13 +24,13 @@ interface Asset {
 
 function App() {
   const [currentView, setCurrentView] = useState<'dashboard' | 'appstore' | 'digitalassets' | 'natural'>('dashboard');
-  const [selectedFile, setSelectedFile] = useState<File | null>(null);
+  // const [selectedFile, setSelectedFile] = useState<File | null>(null);
   const [isAnalyzing, setIsAnalyzing] = useState(false);
   const [analysisProgress, setAnalysisProgress] = useState(0);
   const [chatInput, setChatInput] = useState('');
   const [chatHistory, setChatHistory] = useState<Array<{type: 'user' | 'assistant', message: string}>>([]);
 
-  const recommendedApps: Appinfo[] = [
+  const recommendedApps: AppInfo[] = [
     {
       name: 'Digital Asset Rights Manager',
       description: 'Automatically analyze music files and determine licensing rights, usage permissions, and royalty obligations.',
@@ -96,7 +96,7 @@ function App() {
   const handleFileUpload = (event: React.ChangeEvent<HTMLInputElement>) => {
     const file = event.target.files?.[0];
     if (file) {
-      setSelectedFile(file);
+      // setSelectedFile(file);
       setIsAnalyzing(true);
       setAnalysisProgress(0);
       
