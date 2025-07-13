@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './App.css';
 
-interface App {
+interface Appinfo {
   name: string;
   description: string;
   category: string;
